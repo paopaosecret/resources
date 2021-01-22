@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T06:25:47.596Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="xe0tsx1_F7VU9eXIoe8l" version="14.1.8" type="github"><diagram id="Hhq6TgvwZiD23uWVVZfH" name="Page-1">xZXBbqMwEIafhmMrsBNCj03a7krblVZKpR4rgydgyWBqTCF9+h0HEyBp1FZKVImD/c94bH/zy3h0lbe/NCuzv4qD9IjPW4/eeYQEM0I8+/l82ymL0AmpFtwlDcJavIMTfafWgkM1STRKSSPKqZioooDETDSmtWqmaRslp7uWLIUjYZ0weaw+C26yTo3IYtB/g0izfucgvOkiOeuT3U2qjHHVjCR679GVVsp0o7xdgbTwei7duocT0f3BNBTmKwuq2xhY+/pA3vnV+s9b8BQ9h1dRV+WNydpd2B3WbHsCWtUFB1vE9+iyyYSBdckSG22w56hlJpc4C3DoyoE20J48Z7C/PdoGVA5GbzGlXxA5YM4xtAfYDPyDXstG7EOnMdfydF96oIIDB+YbkCg5ooRGrxHQISvscWmHeRemSyZFWqAgYYOnXFYIThTp4252R/xRRoJ4QKNg4Qk04K0LGFWeB+xsMQUbzT8A638Adn4xsPRz+/U4HlkM8p+qhBHKYomVMSo/yWvkyX1T2tS+Udcxq0RyXUr2WsPLRrPcNmr3YgX+mUgfWDi8+SLpy1l49nOkY4ZPsz4DVnKAdT67nIFxOjzNu9joB0fv/wM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-22T08:05:30.131Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="qfbYood9jJj8_-oNzhv2" version="14.2.6" type="github">
+  <diagram id="Hhq6TgvwZiD23uWVVZfH" name="Page-1">
+    <mxGraphModel dx="1808" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E8mpaHEMSx5tOGwb4rO7-17" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="20" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="E8mpaHEMSx5tOGwb4rO7-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="E8mpaHEMSx5tOGwb4rO7-17" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-725" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-725" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8mpaHEMSx5tOGwb4rO7-20" value="startActivity(intent)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E8mpaHEMSx5tOGwb4rO7-18">
+          <mxGeometry x="-0.6512" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8mpaHEMSx5tOGwb4rO7-21" value="startActivity(intent, null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E8mpaHEMSx5tOGwb4rO7-18">
+          <mxGeometry x="-0.4049" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8mpaHEMSx5tOGwb4rO7-23" value="startActivityForResult(intent, -1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E8mpaHEMSx5tOGwb4rO7-18">
+          <mxGeometry x="-0.1537" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8mpaHEMSx5tOGwb4rO7-24" value="startActivityForResult(intent, -1, null);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E8mpaHEMSx5tOGwb4rO7-18">
+          <mxGeometry x="0.0992" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
