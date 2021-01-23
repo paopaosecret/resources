@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-23T02:26:19.651Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="gysHKQCz1ht_jaIv86NM" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-23T03:27:58.592Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ZvGzytX4jAbs8K7eQ5yQ" version="14.2.7" type="github">
   <diagram id="G5Kt_b3lf7kuvZUHSfS1" name="第 1 页">
-    <mxGraphModel dx="569" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,17 +37,115 @@
         </mxCell>
         <mxCell id="1GY_MsvZjYIFGP0ohTMt-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="890" as="targetPoint" />
+            <mxPoint x="280" y="1400.5714285714287" as="targetPoint" />
             <mxPoint x="260" y="400" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1GY_MsvZjYIFGP0ohTMt-10" value="mParent用于早期TabActivity中&lt;br&gt;已被Fragmetn替代，现在为null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-8">
-          <mxGeometry x="-0.803" relative="1" as="geometry">
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-45" value="mParent用于早期TabActivity中&lt;br&gt;已被Fragmetn替代，现在为null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-8">
+          <mxGeometry x="-0.8838" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1GY_MsvZjYIFGP0ohTMt-12" value="transferSpringboardActivityOptions(null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-8">
-          <mxGeometry x="-0.6149" y="-2" relative="1" as="geometry">
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-46" value="transferSpringboardActivityOptions(null)&lt;br&gt;此方法用于构建一个bundle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-8">
+          <mxGeometry x="-0.8054" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-15" value="Instrumentation" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="230" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="1GY_MsvZjYIFGP0ohTMt-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="4570.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-18" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-16">
+          <mxGeometry x="-0.8747" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-19" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-16">
+          <mxGeometry x="-0.8755" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-20" value="&lt;span style=&quot;font-size: 11px&quot;&gt;Instrumentation.ActivityResult&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;execStartActivity(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; this, mMainThread.getApplicationThread(), mToken, this,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; intent, requestCode, options);&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-16">
+          <mxGeometry x="-0.8751" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-32" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;int result = ActivityManager.getService()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .startActivity(whoThread, who.getBasePackageName(), intent,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; intent.resolveTypeIfNeeded(who.getContentResolver()),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; token, target, requestCode, 0, null, options);&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-16">
+          <mxGeometry x="-0.819" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-21" value="ActivityManager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="1GY_MsvZjYIFGP0ohTMt-21" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="4570.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-28" value="IActivityManager getService()&lt;br&gt;getService()方法返回IActivityManager&lt;br&gt;该对象通过aidl方式&lt;br&gt;实现进程间通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-22">
+          <mxGeometry x="-0.8209" relative="1" as="geometry">
+            <mxPoint x="10" y="123.14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-25" value="" style="endArrow=block;endFill=1;endSize=6;html=1;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="280" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-26" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-25">
+          <mxGeometry x="-0.09" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-29" value="IActivityManager.aidl" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="940" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="1GY_MsvZjYIFGP0ohTMt-29" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="4560.571428571428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-42" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-30">
+          <mxGeometry x="-0.7274" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-43" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;int startActivity(in IApplicationThread caller, in String callingPackage, in Intent intent,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; in String resolvedType, in IBinder resultTo, in String resultWho, int requestCode,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int flags, in ProfilerInfo profilerInfo, in Bundle options);&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-30">
+          <mxGeometry x="-0.7279" y="-3" relative="1" as="geometry">
+            <mxPoint x="-7" y="-6.29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="760" as="targetPoint" />
+            <mxPoint x="550" y="670" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-36" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-34">
+          <mxGeometry x="0.4008" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="820" as="targetPoint" />
+            <mxPoint x="550" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-41" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-40">
+          <mxGeometry x="0.2365" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
