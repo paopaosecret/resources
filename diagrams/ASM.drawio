@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T06:46:04.411Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="JReRUjuWq1RwixQqGTq5" version="14.2.6" type="github"><diagram id="G5Kt_b3lf7kuvZUHSfS1" name="第 1 页">jZJNT8QgEIZ/DUeTUtbu7tW6uyZGLz3ozZAyFhIolVLb+uulAv3IZhMvZHjmg5l3QCRXw8XQhr9oBhKlCRsQeURpesgO7pzA6MHuPvGgMoJ5hBdQiB8IMIZ1gkG7CbRaSyuaLSx1XUNpN4wao/tt2KeW21cbWsEVKEoqr+mbYJaHsdL9wp9AVDy+jLOj9ygag8MkLadM9ytETojkRmvrLTXkICftoi4+73zDOzdmoLb/SdjvWPvO89fnoW++8vIC+kPdhSrfVHZh4NCsHaMCRnc1g6lIgshDz4WFoqHl5O3dyh3jVkl3w84M5cBYGG72iefp3a8BrcCa0YWEhPS48ynhx+AsCNgv+uMoKl9pH+NoWHk1l15UcUYQJl6XBfz5Vr+YnH4B</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-23T02:26:19.651Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="gysHKQCz1ht_jaIv86NM" version="14.2.7" type="github">
+  <diagram id="G5Kt_b3lf7kuvZUHSfS1" name="第 1 页">
+    <mxGraphModel dx="569" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-1" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="1GY_MsvZjYIFGP0ohTMt-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="4580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="4071" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-3" value="startActivity(Intent intent)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-2">
+          <mxGeometry x="-0.9877" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-4" value="startActivity(Intent intent, null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-2">
+          <mxGeometry x="-0.9687" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-5" value="startActivityForResult(intent, -1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-2">
+          <mxGeometry x="-0.9495" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-6" value="startActivityForResult(intent, -1, null);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-2">
+          <mxGeometry x="-0.931" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="890" as="targetPoint" />
+            <mxPoint x="260" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-10" value="mParent用于早期TabActivity中&lt;br&gt;已被Fragmetn替代，现在为null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-8">
+          <mxGeometry x="-0.803" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GY_MsvZjYIFGP0ohTMt-12" value="transferSpringboardActivityOptions(null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GY_MsvZjYIFGP0ohTMt-8">
+          <mxGeometry x="-0.6149" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
