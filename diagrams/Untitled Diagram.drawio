@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T09:37:22.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.7.7" etag="d5haaTVErJO2J-D5H0Yt" type="github"><diagram id="-5fBm0mnSvFqFwF5KQ7j">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-08T09:50:30.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="CLxtnVcnkbAGdlKsKmIO" version="14.7.7" type="github">
+  <diagram id="-5fBm0mnSvFqFwF5KQ7j" name="Page-1">
+    <mxGraphModel dx="2066" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="实时音视频控制台" link="https://console.cloud.tencent.com/trtc/app/detail/baseinfo/1400502298?bizName=Component" linkTarget="_blank" id="CGjVE_7kHmwu_7_LkI4p-2">
+          <mxCell style="swimlane;" vertex="1" parent="1">
+            <mxGeometry x="90" y="350" width="500" height="340" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="CGjVE_7kHmwu_7_LkI4p-6" value="应用管理" style="swimlane;" vertex="1" parent="CGjVE_7kHmwu_7_LkI4p-2">
+          <mxGeometry x="10" y="35" width="260" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="CGjVE_7kHmwu_7_LkI4p-7" value="应用信息" style="swimlane;" vertex="1" parent="CGjVE_7kHmwu_7_LkI4p-6">
+          <mxGeometry x="10" y="30" width="240" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="CGjVE_7kHmwu_7_LkI4p-5" value="SDKAppID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CGjVE_7kHmwu_7_LkI4p-7">
+          <mxGeometry x="10" y="35" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CGjVE_7kHmwu_7_LkI4p-8" value="旁路直播信息" style="swimlane;" vertex="1" parent="CGjVE_7kHmwu_7_LkI4p-7">
+          <mxGeometry x="20" y="85" width="195" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="CGjVE_7kHmwu_7_LkI4p-10" value="appid&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CGjVE_7kHmwu_7_LkI4p-8">
+          <mxGeometry x="20" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CGjVE_7kHmwu_7_LkI4p-17" value="bizid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CGjVE_7kHmwu_7_LkI4p-8">
+          <mxGeometry x="20" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CGjVE_7kHmwu_7_LkI4p-18" value="快速上手" style="swimlane;" vertex="1" parent="CGjVE_7kHmwu_7_LkI4p-2">
+          <mxGeometry x="290" y="35" width="180" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="CGjVE_7kHmwu_7_LkI4p-24" value="SECRETKEY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CGjVE_7kHmwu_7_LkI4p-18">
+          <mxGeometry x="10" y="45" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
