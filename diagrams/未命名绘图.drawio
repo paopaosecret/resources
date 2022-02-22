@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T08:56:44.006Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="0527RJ0TLOr6DoJ3X2ys" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T08:22:39.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="4tR9SA9EPMnm1fy0Rt-O" version="16.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2560" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2589" dy="2209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -25,7 +25,7 @@
         <mxCell id="FkcMrHeK5HteQmRynKsr-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=default;" parent="FkcMrHeK5HteQmRynKsr-4" vertex="1">
           <mxGeometry y="52" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="FkcMrHeK5HteQmRynKsr-7" value="+ StartLocalRecording(std::string&amp; file_path)&#xa;+ StopLocalRecording();&#xa; + OnRecordingStart(recording::LocalRecording* identify,&#xa;                                recording::Error error) override;&#xa;  + OnRecordingProgress(recording::LocalRecording* identify,&#xa;                                   uint64_t duration) override;&#xa;  + OnRecordingComplete(recording::LocalRecording* identify,&#xa;                                   recording::Error error,uint64_t duration,&#xa;                                   uint64_t file_size) override;+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;fontStyle=0" parent="FkcMrHeK5HteQmRynKsr-4" vertex="1">
+        <mxCell id="FkcMrHeK5HteQmRynKsr-7" value="+ StartRecord(std::string&amp; file_path)&#xa;+ StopRecord();&#xa; + OnRecordingStart(recording::LocalRecording* identify,&#xa;                                recording::Error error) override;&#xa;  + OnRecordingProgress(recording::LocalRecording* identify,&#xa;                                   uint64_t duration) override;&#xa;  + OnRecordingComplete(recording::LocalRecording* identify,&#xa;                                   recording::Error error,uint64_t duration,&#xa;                                   uint64_t file_size) override;+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;fontStyle=0" parent="FkcMrHeK5HteQmRynKsr-4" vertex="1">
           <mxGeometry y="60" width="310" height="140" as="geometry" />
         </mxCell>
         <mxCell id="FkcMrHeK5HteQmRynKsr-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkcMrHeK5HteQmRynKsr-0" target="FkcMrHeK5HteQmRynKsr-7" edge="1">
@@ -100,36 +100,51 @@
             <mxPoint x="119.61999999999989" y="209.99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hAJahgyPhBU6y6Sm5yQV-0" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkcMrHeK5HteQmRynKsr-9">
+        <mxCell id="hAJahgyPhBU6y6Sm5yQV-0" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkcMrHeK5HteQmRynKsr-9" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="-100" y="240" as="sourcePoint" />
             <mxPoint x="-80" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hAJahgyPhBU6y6Sm5yQV-2" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hAJahgyPhBU6y6Sm5yQV-0">
+        <mxCell id="hAJahgyPhBU6y6Sm5yQV-2" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hAJahgyPhBU6y6Sm5yQV-0" vertex="1" connectable="0">
           <mxGeometry x="-0.5654" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hAJahgyPhBU6y6Sm5yQV-3" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hAJahgyPhBU6y6Sm5yQV-0">
+        <mxCell id="hAJahgyPhBU6y6Sm5yQV-3" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hAJahgyPhBU6y6Sm5yQV-0" vertex="1" connectable="0">
           <mxGeometry x="0.6462" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hAJahgyPhBU6y6Sm5yQV-5" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.557;exitY=0.018;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkcMrHeK5HteQmRynKsr-45">
+        <mxCell id="hAJahgyPhBU6y6Sm5yQV-5" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.557;exitY=0.018;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkcMrHeK5HteQmRynKsr-45" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="930" y="280" as="sourcePoint" />
             <mxPoint x="990" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hAJahgyPhBU6y6Sm5yQV-6" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hAJahgyPhBU6y6Sm5yQV-5">
+        <mxCell id="hAJahgyPhBU6y6Sm5yQV-6" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hAJahgyPhBU6y6Sm5yQV-5" vertex="1" connectable="0">
           <mxGeometry x="-0.5899" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hAJahgyPhBU6y6Sm5yQV-7" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hAJahgyPhBU6y6Sm5yQV-5">
+        <mxCell id="hAJahgyPhBU6y6Sm5yQV-7" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hAJahgyPhBU6y6Sm5yQV-5" vertex="1" connectable="0">
           <mxGeometry x="0.6158" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kpkrn0_1A9o7VAydPeVK-0" value="LocalRecording" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="254" y="-60" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kpkrn0_1A9o7VAydPeVK-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Kpkrn0_1A9o7VAydPeVK-0">
+          <mxGeometry y="26" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Kpkrn0_1A9o7VAydPeVK-3" value="+ Start(const LocalRecordingInitialParams&amp;) &#xa;+ Stop() &#xa;+ WriteVideoFrame(std::unique_ptr&lt;video::VideoFrame&gt;)&#xa;+WriteAudioFrame(std::unique_ptr&lt;audio::AudioFrame&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="Kpkrn0_1A9o7VAydPeVK-0">
+          <mxGeometry y="34" width="330" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Kpkrn0_1A9o7VAydPeVK-4" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.503;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkcMrHeK5HteQmRynKsr-4" target="Kpkrn0_1A9o7VAydPeVK-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="60" as="sourcePoint" />
+            <mxPoint x="419" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
