@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T08:27:37.630Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="kKzY5wmH2QB4jawEVIKp" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T07:31:05.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Q41F_IinZDQ0lmqlr9TS" version="16.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2589" dy="2209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2442" dy="2122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="FkcMrHeK5HteQmRynKsr-0" value="LivePlayer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="255" y="388" width="330" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="FkcMrHeK5HteQmRynKsr-1" value="+ player_recording_wrapper_: PlayerRecordingWrapper&#xa;+ video_stream_: PlayerVideoStream&#xa;+ audio_stream_: PlayerAudioStream" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;fontStyle=0" parent="FkcMrHeK5HteQmRynKsr-0" vertex="1">
+        <mxCell id="FkcMrHeK5HteQmRynKsr-1" value="+ live_recording_: LiveRecording&#xa;+ video_stream_: PlayerVideoStream&#xa;+ audio_stream_: PlayerAudioStream" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;fontStyle=0" parent="FkcMrHeK5HteQmRynKsr-0" vertex="1">
           <mxGeometry y="26" width="330" height="54" as="geometry" />
         </mxCell>
         <mxCell id="FkcMrHeK5HteQmRynKsr-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="FkcMrHeK5HteQmRynKsr-0" vertex="1">
@@ -16,7 +16,7 @@
         <mxCell id="FkcMrHeK5HteQmRynKsr-3" value="+ StartRecord(int record_type, std::string&amp; file_path)&#xa;+ StopRecord()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="FkcMrHeK5HteQmRynKsr-0" vertex="1">
           <mxGeometry y="88" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FkcMrHeK5HteQmRynKsr-4" value="PlayerRecordingWrapper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="FkcMrHeK5HteQmRynKsr-4" value="LiveRecording" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="264" y="110" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="FkcMrHeK5HteQmRynKsr-5" value="+ local_recording_: LocalRecording" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;fontStyle=0" parent="FkcMrHeK5HteQmRynKsr-4" vertex="1">
@@ -132,16 +132,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kpkrn0_1A9o7VAydPeVK-0" value="LocalRecording" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Kpkrn0_1A9o7VAydPeVK-0" value="LocalRecording" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="254" y="-60" width="330" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Kpkrn0_1A9o7VAydPeVK-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Kpkrn0_1A9o7VAydPeVK-0">
+        <mxCell id="Kpkrn0_1A9o7VAydPeVK-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Kpkrn0_1A9o7VAydPeVK-0" vertex="1">
           <mxGeometry y="26" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Kpkrn0_1A9o7VAydPeVK-3" value="+ Start(const LocalRecordingInitialParams&amp;) &#xa;+ Stop() &#xa;+ WriteVideoFrame(std::unique_ptr&lt;video::VideoFrame&gt;)&#xa;+WriteAudioFrame(std::unique_ptr&lt;audio::AudioFrame&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="Kpkrn0_1A9o7VAydPeVK-0">
+        <mxCell id="Kpkrn0_1A9o7VAydPeVK-3" value="+ Start(const LocalRecordingInitialParams&amp;) &#xa;+ Stop() &#xa;+ WriteVideoFrame(std::unique_ptr&lt;video::VideoFrame&gt;)&#xa;+WriteAudioFrame(std::unique_ptr&lt;audio::AudioFrame&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="Kpkrn0_1A9o7VAydPeVK-0" vertex="1">
           <mxGeometry y="34" width="330" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="Kpkrn0_1A9o7VAydPeVK-4" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.503;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkcMrHeK5HteQmRynKsr-4" target="Kpkrn0_1A9o7VAydPeVK-3">
+        <mxCell id="Kpkrn0_1A9o7VAydPeVK-4" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.503;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkcMrHeK5HteQmRynKsr-4" target="Kpkrn0_1A9o7VAydPeVK-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="410" y="60" as="sourcePoint" />
             <mxPoint x="419" y="50" as="targetPoint" />
