@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T09:57:13.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Qr7rGwHfE7r1W9yTJYbZ" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-23T08:02:15.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nnI7URQAA-VMhohO0R61" version="19.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="940" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hNCOztLgwrzikOfnoWvJ-21" value="管理TRTCRoom：&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;1、&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;RegisterPusher：GetOrCreateTRTCRoom&lt;br&gt;2、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;UnregisterPusher：RemoveRoomIfEmpty&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="840" y="310" width="270" height="30" as="geometry" />
+          <mxGeometry x="827" y="310" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hNCOztLgwrzikOfnoWvJ-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontColor=#000000;exitX=0.461;exitY=1.065;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNCOztLgwrzikOfnoWvJ-3" target="hNCOztLgwrzikOfnoWvJ-4">
           <mxGeometry width="160" relative="1" as="geometry">
