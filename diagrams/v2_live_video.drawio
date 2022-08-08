@@ -1,55 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T10:53:03.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zm692f4WBkVh4YHp5e2V" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T02:01:26.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="loTFfwzSqDCwovokf4Ci" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="940" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-36" value="JAVA" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="585" width="580" height="605" as="geometry" />
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-36" value="JAVA" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="159" y="580" width="1201" height="685" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-0" value="PlayerVideoStream" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-0" value="PlayerVideoStream" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="330" y="270" width="270" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-1" value="+ VideoConsumer video_consumer_&#xa;+ VideoCodec decoder_codec_;&#xa;+ PlayerNetwork network" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-0">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-1" value="+ VideoConsumer video_consumer_&#xa;+ VideoCodec decoder_codec_;&#xa;+ PlayerNetwork network" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-0" vertex="1">
           <mxGeometry y="26" width="270" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-0">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-0" vertex="1">
           <mxGeometry y="90" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-3" value="+ void Start(PlayerNetwork network);&#xa;+ void OnFrame(VideoFrame&gt; frame) override;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-0">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-3" value="+ void Start(PlayerNetwork network);&#xa;+ void OnFrame(VideoFrame&gt; frame) override;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-0" vertex="1">
           <mxGeometry y="98" width="270" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-5" value="VideoSinkInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-5" value="VideoSinkInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="330" y="90" width="270" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-5">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-5" vertex="1">
           <mxGeometry y="26" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-8" value="+ virtual void OnFrame(VideoFrame frame)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-5">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-8" value="+ virtual void OnFrame(VideoFrame frame)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-5" vertex="1">
           <mxGeometry y="34" width="270" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-9" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-0">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-9" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="240" y="320" as="sourcePoint" />
             <mxPoint x="465" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-10" value="PlayerNetwork" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-10" value="PlayerNetwork" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="660" y="293" width="270" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-10">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-10" vertex="1">
           <mxGeometry y="26" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-13" value="+ virtual void SetVideoSink(VideoSinkInterface* );" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-10">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-13" value="+ virtual void SetVideoSink(VideoSinkInterface* );" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-10" vertex="1">
           <mxGeometry y="34" width="270" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-1" target="n83WJbiTZaxpq6fG6bxS-13">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-1" target="n83WJbiTZaxpq6fG6bxS-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="430" y="320" as="sourcePoint" />
             <mxPoint x="660" y="318" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-15" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.02;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-10" target="n83WJbiTZaxpq6fG6bxS-8">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-15" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.02;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-10" target="n83WJbiTZaxpq6fG6bxS-8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="660" y="320" as="sourcePoint" />
             <mxPoint x="820" y="320" as="targetPoint" />
@@ -58,91 +58,161 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-20" value="VideoCodec" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-20" value="VideoCodec" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="270" width="270" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-21" value="+ VideoConsumer video_consumer_&#xa;+ VideoCodec decoder_codec_;&#xa;+ PlayerNetwork network" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-20">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-21" value="+ VideoConsumer video_consumer_&#xa;+ VideoCodec decoder_codec_;&#xa;+ PlayerNetwork network" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-20" vertex="1">
           <mxGeometry y="26" width="270" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-20">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-20" vertex="1">
           <mxGeometry y="90" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-23" value="+ void Start(PlayerNetwork network);&#xa;+ void OnFrame(VideoFrame&gt; frame) override;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-20">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-23" value="+ void Start(PlayerNetwork network);&#xa;+ void OnFrame(VideoFrame&gt; frame) override;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-20" vertex="1">
           <mxGeometry y="98" width="270" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-24" value="VideoConsumer(VideoConsumerAndroid)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-24" value="VideoConsumer(VideoConsumerAndroid)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="285" y="470" width="360" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-24">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-24" vertex="1">
           <mxGeometry y="26" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-27" value=" // Deliver video |frame| for decoding and rendering&#xa;+ void DeliverFrame(std::unique_ptr&lt;VideoFrame&gt; frame) = 0;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-24">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-27" value=" // Deliver video |frame| for decoding and rendering&#xa;+ void DeliverFrame(std::unique_ptr&lt;VideoFrame&gt; frame) = 0;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-24" vertex="1">
           <mxGeometry y="34" width="360" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-1" target="n83WJbiTZaxpq6fG6bxS-21">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-1" target="n83WJbiTZaxpq6fG6bxS-21" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="310" y="380" as="sourcePoint" />
             <mxPoint x="470" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-30" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.501;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-3" target="n83WJbiTZaxpq6fG6bxS-24">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-30" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.501;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-3" target="n83WJbiTZaxpq6fG6bxS-24" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="310" y="380" as="sourcePoint" />
             <mxPoint x="470" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-31" value="VideoConsumerProxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-31" value="VideoConsumerProxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="280" y="610" width="330" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-32" value="+ VideoConsumer mConsumer;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-31">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-32" value="+ VideoConsumer mConsumer;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-31" vertex="1">
           <mxGeometry y="26" width="330" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-31">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-31" vertex="1">
           <mxGeometry y="50" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-34" value="+ void appendNALPacket(EncodedVideoFrame packet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-31">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-34" value="+ void appendNALPacket(EncodedVideoFrame packet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-31" vertex="1">
           <mxGeometry y="58" width="330" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-35" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.558;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.498;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-27" target="n83WJbiTZaxpq6fG6bxS-31">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-35" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.558;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.498;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-27" target="n83WJbiTZaxpq6fG6bxS-31" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="449" y="540" as="sourcePoint" />
             <mxPoint x="475" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-37" value="VideoConsumerProxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-37" value="VideoConsumerProxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="282" y="740" width="330" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-38" value="// 本地渲染renderer&#xa;private VideoRenderInterface mVideoRenderer;&#xa;// 自定义渲染render&#xa;private VideoRenderInterface mVideoCustomRenderer;&#xa;private VideoDecodeController mVideoDecodeController;&#xa;&#xa;// 解码帧队列&#xa;private final RingFrameQueue mDecodedFrameQueue&#xa;private final VideoDecodeControllerListener mVideoDecodeListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-37">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-38" value="// 本地渲染renderer&#xa;private VideoRenderInterface mVideoRenderer;&#xa;// 自定义渲染render&#xa;private VideoRenderInterface mVideoCustomRenderer;&#xa;private VideoDecodeController mVideoDecodeController;&#xa;&#xa;// 解码帧队列&#xa;private final RingFrameQueue mDecodedFrameQueue&#xa;private final VideoDecodeControllerListener mVideoDecodeListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-37" vertex="1">
           <mxGeometry y="26" width="330" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-37">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-37" vertex="1">
           <mxGeometry y="190" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-40" value="+ void appendNALPacket(EncodedVideoFrame packet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-37">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-40" value="+ void appendNALPacket(EncodedVideoFrame packet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-37" vertex="1">
           <mxGeometry y="198" width="330" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-41" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.504;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-34" target="n83WJbiTZaxpq6fG6bxS-37">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-41" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.504;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-34" target="n83WJbiTZaxpq6fG6bxS-37" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="459" y="550" as="sourcePoint" />
             <mxPoint x="458.1400000000001" y="617.4000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-42" value="VideoDecodeController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-42" value="VideoDecodeController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="269" y="1010" width="360" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-43" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-42">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-43" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-42" vertex="1">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-42">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-42" vertex="1">
           <mxGeometry y="52" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-45" value="解码视频帧，解码后的数据会通过&#xa;{@link VideoDecodeControllerListener}回调出来&#xa;+ public void decode(final EncodedVideoFrame frame) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n83WJbiTZaxpq6fG6bxS-42">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-45" value="解码视频帧，解码后的数据会通过&#xa;{@link VideoDecodeControllerListener}回调出来&#xa;+ public void decode(final EncodedVideoFrame frame) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="n83WJbiTZaxpq6fG6bxS-42" vertex="1">
           <mxGeometry y="60" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="n83WJbiTZaxpq6fG6bxS-46" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.504;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-40" target="n83WJbiTZaxpq6fG6bxS-42">
+        <mxCell id="n83WJbiTZaxpq6fG6bxS-46" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.504;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n83WJbiTZaxpq6fG6bxS-40" target="n83WJbiTZaxpq6fG6bxS-42" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="310" y="920" as="sourcePoint" />
             <mxPoint x="470" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-0" value="硬解码" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="1000.5" width="80" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-2" value="HardwareVideoDecoder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="960" y="990" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HFFnAHkGXbOw0xpwjxz2-2">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HFFnAHkGXbOw0xpwjxz2-2">
+          <mxGeometry y="52" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-5" value="解码视频帧，解码后的数据会通过&#xa;{@link VideoDecodeControllerListener}回调出来&#xa;+ public void decode(final EncodedVideoFrame frame) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HFFnAHkGXbOw0xpwjxz2-2">
+          <mxGeometry y="60" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-8" value="SoftwareVideoDecoder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="625" y="710" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-9" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HFFnAHkGXbOw0xpwjxz2-8">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HFFnAHkGXbOw0xpwjxz2-8">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-11" value="+ boolean decode(EncodedVideoFrame frame)&#xa;+ private static native int nativeDecodeFrame(long nativeVideoDecoderWrapper,&#xa;        EncodedVideoFrame frame,&#xa;        ByteBuffer data,&#xa;        int frameType,&#xa;        int codecType,&#xa;        int rotation,&#xa;        long pts,&#xa;        long dts);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HFFnAHkGXbOw0xpwjxz2-8">
+          <mxGeometry y="60" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.504;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="HFFnAHkGXbOw0xpwjxz2-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="629" y="1045" as="sourcePoint" />
+            <mxPoint x="629.6800000000001" y="1085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.01;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HFFnAHkGXbOw0xpwjxz2-0" target="HFFnAHkGXbOw0xpwjxz2-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="860" y="1047.61" as="sourcePoint" />
+            <mxPoint x="960" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-16" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HFFnAHkGXbOw0xpwjxz2-14">
+          <mxGeometry x="-0.1468" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.524;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HFFnAHkGXbOw0xpwjxz2-0" target="HFFnAHkGXbOw0xpwjxz2-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="870" y="1057.61" as="sourcePoint" />
+            <mxPoint x="970" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-17" value="N（软解码）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HFFnAHkGXbOw0xpwjxz2-15">
+          <mxGeometry x="-0.0235" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-19" value="VideoDecoderWrapper(video_decoder_wrapper.h)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="390" width="380" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HFFnAHkGXbOw0xpwjxz2-19">
+          <mxGeometry y="26" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-21" value="  int32_t DecodeFrame(JNIEnv* env,&#xa;                      const base::android::JavaParamRef&lt;jobject&gt;&amp; object_ref,&#xa;                      const base::android::JavaParamRef&lt;jobject&gt;&amp; nal_data,&#xa;                      jint nal_type,&#xa;                      jint codec_type,&#xa;                      jint rotation,&#xa;                      jlong pts,&#xa;                      jlong dts);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HFFnAHkGXbOw0xpwjxz2-19">
+          <mxGeometry y="34" width="380" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="HFFnAHkGXbOw0xpwjxz2-22" value="JNI" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.352;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HFFnAHkGXbOw0xpwjxz2-8" target="HFFnAHkGXbOw0xpwjxz2-21">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="580" y="730" as="sourcePoint" />
+            <mxPoint x="680" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
