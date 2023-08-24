@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T07:56:45.788Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="CDY_TGhcwnm4FnhnhOPP" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T07:59:26.683Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5D7wm_gaYhao6iJqaYaS" version="21.6.2" type="github">
   <diagram name="第 1 页" id="3Z1e6h2pDKjKwEbzN9B4">
     <mxGraphModel dx="1754" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
             <mxPoint x="780" y="1900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICSW-CXuDH6oqXJ18bAo-10" value="拉起页面通话" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="ICSW-CXuDH6oqXJ18bAo-10" value="拉起页面通话&lt;br&gt;通知栏通知、铃声" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1060" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ICSW-CXuDH6oqXJ18bAo-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#6c8ebf;rounded=0;fillColor=#dae8fc;" edge="1" source="ICSW-CXuDH6oqXJ18bAo-10" parent="1">
@@ -82,7 +82,7 @@
           <mxGeometry x="120" y="710" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ICSW-CXuDH6oqXJ18bAo-27" value="80次" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" vertex="1" parent="1">
-          <mxGeometry x="1140" y="720" width="90" height="60" as="geometry" />
+          <mxGeometry x="1130" y="720" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ICSW-CXuDH6oqXJ18bAo-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -90,8 +90,14 @@
             <mxPoint x="1120" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICSW-CXuDH6oqXJ18bAo-29" value="连通率 80%" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="570" y="768" width="90" height="30" as="geometry" />
+        <mxCell id="ICSW-CXuDH6oqXJ18bAo-29" value="连通率 80%， 其中10%是 IM离线推送到达率导致、10%是我们业务处理导致" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="768" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ICSW-CXuDH6oqXJ18bAo-31" value="95次" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICSW-CXuDH6oqXJ18bAo-32" value="85次" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" vertex="1" parent="1">
+          <mxGeometry x="690" y="680" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
