@@ -1,70 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T09:50:33.902Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="eCr2QxIvVzUr4BOcUvET" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T09:50:59.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="rJ0OtfylZ1yOGMKMAK1z" version="21.8.2" type="github">
   <diagram id="_3MNf_Sm-s--1B_T6NlN" name="第 1 页">
-    <mxGraphModel dx="3837" dy="2353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3728" dy="3463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-7" value="Native" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1140" y="245" width="820" height="205" as="geometry" />
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-7" value="Native" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1110" y="-1895" width="820" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-8" value="TRTCCloudPlugin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-7">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-8" value="TRTCCloudPlugin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-7" vertex="1">
           <mxGeometry x="30" y="80" width="410" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-8">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="RT83Ey3W2j5cHloOZUr_-8" vertex="1">
           <mxGeometry y="26" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-10" value="&lt;div&gt;register(ITXCustomBeautyProcesserFactory)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ITXCustomBeautyProcesserFactory getBeautyProcesserFactory()&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-8">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-10" value="&lt;div&gt;register(ITXCustomBeautyProcesserFactory)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ITXCustomBeautyProcesserFactory getBeautyProcesserFactory()&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-8" vertex="1">
           <mxGeometry y="34" width="410" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-11" value="Native 美颜支持 API" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1140" y="-60" width="800" height="210" as="geometry" />
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-11" value="Native 美颜支持 API" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1110" y="-2200" width="800" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-16" value="&lt;i&gt;ITXCustomBeautyProcesserFactory&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-11">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-16" value="&lt;i&gt;ITXCustomBeautyProcesserFactory&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-11" vertex="1">
           <mxGeometry x="27" y="50" width="360" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-16">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="RT83Ey3W2j5cHloOZUr_-16" vertex="1">
           <mxGeometry y="26" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-19" value="ITXCustomBeautyProcesser createCustomBeautyProcesser();&lt;br&gt;&lt;br&gt;void destroyCustomBeautyProcesser();&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-16">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-19" value="ITXCustomBeautyProcesser createCustomBeautyProcesser();&lt;br&gt;&lt;br&gt;void destroyCustomBeautyProcesser();&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-16" vertex="1">
           <mxGeometry y="34" width="360" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-21" value="&lt;i&gt;ITXCustomBeautyProcesser&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-11">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-21" value="&lt;i&gt;ITXCustomBeautyProcesser&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-11" vertex="1">
           <mxGeometry x="410" y="50" width="360" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-21">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="RT83Ey3W2j5cHloOZUr_-21" vertex="1">
           <mxGeometry y="26" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-23" value="&lt;div&gt;TXCustomBeautyPixelFormat getSupportedPixelFormat();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TXCustomBeautyBufferType getSupportedBufferType();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;void onProcessVideoFrame(TXCustomBeautyVideoFrame srcFrame, TXCustomBeautyVideoFrame dstFrame);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-21">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-23" value="&lt;div&gt;TXCustomBeautyPixelFormat getSupportedPixelFormat();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TXCustomBeautyBufferType getSupportedBufferType();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;void onProcessVideoFrame(TXCustomBeautyVideoFrame srcFrame, TXCustomBeautyVideoFrame dstFrame);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-21" vertex="1">
           <mxGeometry y="34" width="360" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-740.5" y="250" as="sourcePoint" />
-            <mxPoint x="-740" y="150" as="targetPoint" />
+            <mxPoint x="-710.5" y="-1890" as="sourcePoint" />
+            <mxPoint x="-710" y="-1990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-24" value="Flutter 插件SDK" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-1620" y="-140" width="1350" height="640" as="geometry" />
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-24" value="Flutter 插件SDK" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1590" y="-2280" width="1350" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-1" value="Flutter" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-24">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-1" value="Flutter" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="RT83Ey3W2j5cHloOZUr_-24" vertex="1">
           <mxGeometry x="15" y="392.5" width="380" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-3" value="TRTCCloud" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-1">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-3" value="TRTCCloud" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-1" vertex="1">
           <mxGeometry x="70" y="92" width="240" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-3">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="RT83Ey3W2j5cHloOZUr_-3" vertex="1">
           <mxGeometry y="26" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-6" value="enableCustomVideoProcess(bool)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-3">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-6" value="enableCustomVideoProcess(bool)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-3" vertex="1">
           <mxGeometry y="34" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-25" value="Demo中使用美颜步骤" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;startSize=23;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1620" y="540" width="1350" height="270" as="geometry" />
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-25" value="Demo中使用美颜步骤" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;startSize=23;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-1590" y="-1600" width="1350" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-25">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="RT83Ey3W2j5cHloOZUr_-25" vertex="1">
           <mxGeometry x="210" y="80" width="980" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="RT83Ey3W2j5cHloOZUr_-34" value="&lt;b&gt;&lt;div style=&quot;&quot;&gt;1、Demo Native 层实现ITXCustomBeautyProcesser 接口 和 ITXCustomBeautyProcesserFactory接口，处理美颜逻辑&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2、调用插件 注册美颜处理工厂的实现类对象&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3、调用 Flutter 层 API 开启或者关闭美颜&lt;/div&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RT83Ey3W2j5cHloOZUr_-25">
+        <mxCell id="RT83Ey3W2j5cHloOZUr_-34" value="&lt;b&gt;&lt;div style=&quot;&quot;&gt;1、Demo Native 层实现ITXCustomBeautyProcesser 接口 和 ITXCustomBeautyProcesserFactory接口，处理美颜逻辑&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2、调用插件 注册美颜处理工厂的实现类对象&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3、调用 Flutter 层 API 开启或者关闭美颜&lt;/div&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RT83Ey3W2j5cHloOZUr_-25" vertex="1">
           <mxGeometry x="265" y="110" width="735" height="60" as="geometry" />
         </mxCell>
       </root>
