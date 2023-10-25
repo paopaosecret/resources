@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T06:42:44.678Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="HTmRCM4WrAggi7ax4fLt" version="22.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T06:44:28.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="I0utJIPL6izFuXdOqF5M" version="22.0.7" type="github">
   <diagram id="_3MNf_Sm-s--1B_T6NlN" name="第 1 页">
     <mxGraphModel dx="3728" dy="2294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="uuoJQ936GcZxrTBiNh5u-4" value="Demo中使用美颜步骤" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;startSize=23;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1580" y="1040" width="1360" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="uuoJQ936GcZxrTBiNh5u-6" value="&lt;b&gt;&lt;div style=&quot;&quot;&gt;1、Demo Native 层实现ITXCustomBeautyProcesser 接口 和 ITXCustomBeautyProcesserFactory接口，处理美颜逻辑&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2、调用插件 注册美颜处理工厂的实现类对象&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3、调用 Flutter 层 API 开启或者关闭美颜&lt;/div&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uuoJQ936GcZxrTBiNh5u-4">
+        <mxCell id="uuoJQ936GcZxrTBiNh5u-6" value="&lt;b&gt;&lt;div style=&quot;&quot;&gt;1、Demo 中 通过 Channel 实现 Native 和 Flutter 通信&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2、封装美颜相关方法&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3、调用美颜相关方法&lt;/div&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uuoJQ936GcZxrTBiNh5u-4">
           <mxGeometry x="260" y="340" width="735" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uuoJQ936GcZxrTBiNh5u-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuoJQ936GcZxrTBiNh5u-4">
