@@ -1,9 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T11:29:35.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.4" etag="VUafS5eeQoTtZ8pUE9Qa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T02:18:53.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="k9sSBFhPiLGyvbdcJdUG" version="22.1.4" type="github">
   <diagram name="第 1 页" id="BJb2QBftmAwLZdBP9YWp">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#5C5C5C;fillColor=#FFF5F5;" vertex="1" parent="1">
+          <mxGeometry x="140" y="430" width="350" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-6" value="美颜面板" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="175" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-9" value="滤镜" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-13" value="背景虚化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="325" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-15" value="美妆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="405" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-17" value="贴图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="175" y="585" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-19" value="手势" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="645" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-21" value="TRTC 自带基础美颜（磨皮、美白、红润）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-24" value="rande团队的背景虚化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="215" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-27" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="471" as="sourcePoint" />
+            <mxPoint x="470" y="471" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="671" />
+              <mxPoint x="160" y="671" />
+              <mxPoint x="160" y="574" />
+              <mxPoint x="320" y="574" />
+              <mxPoint x="320" y="471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-30" value="&lt;b&gt;...&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="595" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-31" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WcxLaPeq5YX2QQLOV-Lv-8" target="WcxLaPeq5YX2QQLOV-Lv-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="800" as="sourcePoint" />
+            <mxPoint x="880" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-32" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WcxLaPeq5YX2QQLOV-Lv-12" target="WcxLaPeq5YX2QQLOV-Lv-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="490" as="sourcePoint" />
+            <mxPoint x="210" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-33" value="腾讯特效Xmagic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WcxLaPeq5YX2QQLOV-Lv-34" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.433;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WcxLaPeq5YX2QQLOV-Lv-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="360" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
