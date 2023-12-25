@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T03:05:27.202Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6aafL69SZS_YLvsIOoMD" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T03:28:21.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="S-1vt6LNjxzRPbCOcCuu" version="22.1.11" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1026" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qKdqZK4pxTI20FY4RLXW-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4" y="1400" width="810" height="168" as="geometry" />
+          <mxGeometry x="-6" y="1470" width="810" height="168" as="geometry" />
         </mxCell>
         <mxCell id="Bm5xuSs-34fYkXy3SaaI-27" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="570" width="670" height="540" as="geometry" />
@@ -139,13 +139,13 @@
           <mxGeometry x="395" y="585" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qKdqZK4pxTI20FY4RLXW-4" value="基础组件（aar）" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1410" width="410" height="150" as="geometry" />
+          <mxGeometry y="1480" width="410" height="150" as="geometry" />
         </mxCell>
         <mxCell id="qKdqZK4pxTI20FY4RLXW-5" value="功能组件(aar)" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1410" width="360" height="150" as="geometry" />
+          <mxGeometry x="440" y="1480" width="360" height="150" as="geometry" />
         </mxCell>
         <mxCell id="qKdqZK4pxTI20FY4RLXW-7" value="工程架构" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry y="1140" width="820" height="430" as="geometry" />
+          <mxGeometry x="-10" y="1210" width="820" height="430" as="geometry" />
         </mxCell>
         <mxCell id="qKdqZK4pxTI20FY4RLXW-8" value="网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qKdqZK4pxTI20FY4RLXW-7">
           <mxGeometry x="40" y="310" width="90" height="30" as="geometry" />
@@ -193,7 +193,7 @@
           <mxGeometry x="580" y="60" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qKdqZK4pxTI20FY4RLXW-36" value="壳工程" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1180" width="800" height="80" as="geometry" />
+          <mxGeometry y="1250" width="800" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qKdqZK4pxTI20FY4RLXW-37" value="登录注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qKdqZK4pxTI20FY4RLXW-36">
           <mxGeometry x="30" y="30" width="110" height="40" as="geometry" />
