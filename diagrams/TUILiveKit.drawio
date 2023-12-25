@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T03:29:46.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AwguHuPwg0l3AMGkAeLe" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T03:42:12.569Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ByOHsHlKYXvQ_cSiCCnO" version="22.1.11" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1853" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,10 +138,10 @@
         <mxCell id="Bm5xuSs-34fYkXy3SaaI-28" value="VideoView 模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="585" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qKdqZK4pxTI20FY4RLXW-4" value="基础组件（aar）" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="qKdqZK4pxTI20FY4RLXW-4" value="基础组件" style="swimlane;" vertex="1" parent="1">
           <mxGeometry y="1485" width="410" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="qKdqZK4pxTI20FY4RLXW-5" value="功能组件(aar)" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="qKdqZK4pxTI20FY4RLXW-5" value="功能组件" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="440" y="1485" width="360" height="150" as="geometry" />
         </mxCell>
         <mxCell id="qKdqZK4pxTI20FY4RLXW-7" value="工程架构" style="swimlane;" vertex="1" parent="1">
@@ -177,7 +177,7 @@
         <mxCell id="qKdqZK4pxTI20FY4RLXW-24" value="推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qKdqZK4pxTI20FY4RLXW-7">
           <mxGeometry x="470" y="360" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qKdqZK4pxTI20FY4RLXW-33" value="UIKit（aar）" style="swimlane;" vertex="1" parent="qKdqZK4pxTI20FY4RLXW-7">
+        <mxCell id="qKdqZK4pxTI20FY4RLXW-33" value="UIKit" style="swimlane;" vertex="1" parent="qKdqZK4pxTI20FY4RLXW-7">
           <mxGeometry x="15" y="130" width="790" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qKdqZK4pxTI20FY4RLXW-29" value="LiveKit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qKdqZK4pxTI20FY4RLXW-33">
