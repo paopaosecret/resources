@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T08:52:13.035Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7da9RNe5KxBfDo5OYFTn" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T08:55:58.336Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="uFyLsl_yATqEWMu8iuL6" version="23.0.2" type="github">
   <diagram name="第 1 页" id="dYHV9aIYxCr4mEEWxF15">
     <mxGraphModel dx="1710" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -303,25 +303,25 @@
         </mxCell>
         <mxCell id="neQ2aIgq4aiJoQgR_U-S-12" value="FirebaseLogin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neQ2aIgq4aiJoQgR_U-S-11">
           <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="neQ2aIgq4aiJoQgR_U-S-13" value="userId: xxxxx&lt;br&gt;photo:xxxxxx&lt;br&gt;name:xxxxxx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1750" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="neQ2aIgq4aiJoQgR_U-S-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="neQ2aIgq4aiJoQgR_U-S-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="neQ2aIgq4aiJoQgR_U-S-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="1810" as="sourcePoint" />
+            <mxPoint x="480" y="1810" as="sourcePoint" />
             <mxPoint x="580" y="1810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="neQ2aIgq4aiJoQgR_U-S-15" value="IM Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neQ2aIgq4aiJoQgR_U-S-14">
+        <mxCell id="neQ2aIgq4aiJoQgR_U-S-15" value="IM Login:userId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neQ2aIgq4aiJoQgR_U-S-14">
           <mxGeometry x="-0.4118" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="8" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="neQ2aIgq4aiJoQgR_U-S-16" value="IM User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="585" y="1790" width="105" height="40" as="geometry" />
+          <mxGeometry x="600" y="1790" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
