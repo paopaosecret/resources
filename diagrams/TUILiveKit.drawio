@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T08:40:43.596Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="YXc2DoBGuPFqaalX6ZeH" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T09:00:04.782Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Wzg-bNtCg8p2wJx28Hb2" version="24.3.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2087" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,22 +238,139 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U0rbw6reVC3A500WmU9E-10" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006CFF;" vertex="1" parent="1">
-          <mxGeometry x="303" y="2159" width="300" height="151" as="geometry" />
+          <mxGeometry x="253" y="2159" width="397" height="151" as="geometry" />
         </mxCell>
         <mxCell id="U0rbw6reVC3A500WmU9E-14" value="TUILiveKit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="2159" width="60" height="30" as="geometry" />
+          <mxGeometry x="420.5" y="2159" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U0rbw6reVC3A500WmU9E-17" value="主播预览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="2189" width="87" height="111" as="geometry" />
+          <mxGeometry x="270" y="2189" width="87" height="111" as="geometry" />
         </mxCell>
         <mxCell id="U0rbw6reVC3A500WmU9E-18" value="主播直播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="2189" width="87" height="111" as="geometry" />
+          <mxGeometry x="364" y="2189" width="87" height="111" as="geometry" />
         </mxCell>
         <mxCell id="U0rbw6reVC3A500WmU9E-19" value="主播连麦" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="508" y="2189" width="87" height="111" as="geometry" />
+          <mxGeometry x="458" y="2189" width="87" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="U0rbw6reVC3A500WmU9E-21" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px;&quot;&gt;主播端&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;fillColor=#007FFF;" vertex="1" parent="1">
-          <mxGeometry x="89" y="1930" width="746" height="60" as="geometry" />
+        <mxCell id="U0rbw6reVC3A500WmU9E-22" value="观众登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1142" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0rbw6reVC3A500WmU9E-22" target="U0rbw6reVC3A500WmU9E-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="2170" as="sourcePoint" />
+            <mxPoint x="1202" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006CFF;" vertex="1" parent="1">
+          <mxGeometry x="1053" y="2159" width="300" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-25" value="TUILiveKit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-26" value="观看直播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1262" y="2189" width="87" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-27" value="与主播连麦" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="2189" width="87" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-28" value="发送礼物&amp;amp;弹幕" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2189" width="87" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-33" value="腾讯云即时通信 IM" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2480" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-34" value="腾讯云实时音视频 TRTC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="2350" width="225" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-35" value="显示礼物&amp;amp;弹幕" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2189" width="87" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U0rbw6reVC3A500WmU9E-34" target="U0rbw6reVC3A500WmU9E-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="2310" as="sourcePoint" />
+            <mxPoint x="1010" y="2310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1305" y="2390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0rbw6reVC3A500WmU9E-18" target="U0rbw6reVC3A500WmU9E-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="2310" as="sourcePoint" />
+            <mxPoint x="1010" y="2310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="408" y="2386" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="U0rbw6reVC3A500WmU9E-43" target="U0rbw6reVC3A500WmU9E-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="2310" as="sourcePoint" />
+            <mxPoint x="1010" y="2310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1229" y="2590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-48" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U0rbw6reVC3A500WmU9E-38">
+          <mxGeometry x="-0.6737" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-49" value="2、音视频数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U0rbw6reVC3A500WmU9E-38">
+          <mxGeometry x="-0.5915" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-39" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0rbw6reVC3A500WmU9E-33" target="U0rbw6reVC3A500WmU9E-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="2310" as="sourcePoint" />
+            <mxPoint x="1010" y="2310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="502" y="2530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-40" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.906;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0rbw6reVC3A500WmU9E-27" target="U0rbw6reVC3A500WmU9E-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="2310" as="sourcePoint" />
+            <mxPoint x="910" y="2513" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1210" y="2513" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-47" value="1、通信信令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U0rbw6reVC3A500WmU9E-40">
+          <mxGeometry x="0.4929" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-43" value="腾讯云实时音视频 TRTC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2570" width="225" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-44" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0rbw6reVC3A500WmU9E-19" target="U0rbw6reVC3A500WmU9E-43">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="780" y="2390" as="sourcePoint" />
+            <mxPoint x="560" y="2570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="523" y="2610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-50" value="腾讯云即时通信 IM" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2186" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-53" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.104;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0rbw6reVC3A500WmU9E-35" target="U0rbw6reVC3A500WmU9E-50">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770" y="2310" as="sourcePoint" />
+            <mxPoint x="930" y="2310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0rbw6reVC3A500WmU9E-56" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="U0rbw6reVC3A500WmU9E-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="910" y="2245" as="sourcePoint" />
+            <mxPoint x="769" y="2255" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
