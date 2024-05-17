@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T08:52:39.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qNOGyGXgUdFFgu3wmcVu" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T09:01:41.907Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="7IgURrqKNeoNXTTOPN3b" version="24.4.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2412" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2067" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -449,13 +449,13 @@
         <mxCell id="HjXYTRGFLuZZy1ot2p-H-30" value="Anchor&amp;amp;Room n" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1623.66" y="3340" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HjXYTRGFLuZZy1ot2p-H-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="HjXYTRGFLuZZy1ot2p-H-30">
+        <mxCell id="HjXYTRGFLuZZy1ot2p-H-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HjXYTRGFLuZZy1ot2p-H-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1638.16" y="3205" as="sourcePoint" />
             <mxPoint x="1638.16" y="3105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HjXYTRGFLuZZy1ot2p-H-39" value="2、发送 PK请求" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1" source="o5Y4osct_gqR99mBqcBn-4">
+        <mxCell id="HjXYTRGFLuZZy1ot2p-H-39" value="2、发送 PK请求" style="endArrow=classic;html=1;rounded=0;" parent="1" source="o5Y4osct_gqR99mBqcBn-4" edge="1">
           <mxGeometry x="0.0026" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1210" y="3110" as="sourcePoint" />
             <mxPoint x="1590" y="3090" as="targetPoint" />
@@ -468,7 +468,7 @@
             <mxPoint x="1590" y="3330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o5Y4osct_gqR99mBqcBn-13" value="2、发送 PK请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HjXYTRGFLuZZy1ot2p-H-40">
+        <mxCell id="o5Y4osct_gqR99mBqcBn-13" value="2、发送 PK请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HjXYTRGFLuZZy1ot2p-H-40" vertex="1" connectable="0">
           <mxGeometry x="-0.5339" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -476,13 +476,13 @@
         <mxCell id="HjXYTRGFLuZZy1ot2p-H-43" value="Live后台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="957" y="3060" width="243" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="HjXYTRGFLuZZy1ot2p-H-47" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1" target="o5Y4osct_gqR99mBqcBn-4">
+        <mxCell id="HjXYTRGFLuZZy1ot2p-H-47" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="o5Y4osct_gqR99mBqcBn-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1580" y="3070" as="sourcePoint" />
             <mxPoint x="1220" y="3070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o5Y4osct_gqR99mBqcBn-6" value="3、响应 PK请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HjXYTRGFLuZZy1ot2p-H-47">
+        <mxCell id="o5Y4osct_gqR99mBqcBn-6" value="3、响应 PK请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HjXYTRGFLuZZy1ot2p-H-47" vertex="1" connectable="0">
           <mxGeometry x="-0.4042" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -493,7 +493,7 @@
             <mxPoint x="1210" y="3370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o5Y4osct_gqR99mBqcBn-7" value="3、响应 PK请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HjXYTRGFLuZZy1ot2p-H-48">
+        <mxCell id="o5Y4osct_gqR99mBqcBn-7" value="3、响应 PK请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HjXYTRGFLuZZy1ot2p-H-48" vertex="1" connectable="0">
           <mxGeometry x="-0.5311" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -524,28 +524,106 @@
         <mxCell id="HjXYTRGFLuZZy1ot2p-H-64" value="Anchor&amp;amp;Room PK&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="455" y="3120" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o5Y4osct_gqR99mBqcBn-4" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="o5Y4osct_gqR99mBqcBn-4" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1195" y="2997" width="10" height="453" as="geometry" />
         </mxCell>
-        <mxCell id="o5Y4osct_gqR99mBqcBn-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="o5Y4osct_gqR99mBqcBn-4">
+        <mxCell id="o5Y4osct_gqR99mBqcBn-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="o5Y4osct_gqR99mBqcBn-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1130" y="3470" as="sourcePoint" />
             <mxPoint x="1580" y="3040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o5Y4osct_gqR99mBqcBn-9" value="4、通知 2～n 的结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o5Y4osct_gqR99mBqcBn-8">
+        <mxCell id="o5Y4osct_gqR99mBqcBn-9" value="4、通知 2～n 的结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o5Y4osct_gqR99mBqcBn-8" vertex="1" connectable="0">
           <mxGeometry x="-0.4299" y="5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o5Y4osct_gqR99mBqcBn-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="o5Y4osct_gqR99mBqcBn-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1210" y="3410" as="sourcePoint" />
             <mxPoint x="1590" y="3410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o5Y4osct_gqR99mBqcBn-12" value="4、通知 1～ n- 的结果&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o5Y4osct_gqR99mBqcBn-10">
+        <mxCell id="o5Y4osct_gqR99mBqcBn-12" value="4、通知 1～ n- 的结果&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o5Y4osct_gqR99mBqcBn-10" vertex="1" connectable="0">
           <mxGeometry x="-0.4111" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-1" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px;&quot;&gt;主播PK发起方(RoomEngine)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="211" y="3620" width="746" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-2" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px;&quot;&gt;主播PK被邀请方（Room&#39;Engine）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="3620" width="746" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-3" value="Live后台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="3740" width="247" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-4" value="Anchor&amp;amp;Room PK发起方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="3760" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-8" value="Anchor&amp;amp;Room PK中成员1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="3940" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-9" value="Anchor&amp;amp;Room PK中成员n" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="4120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420.5" y="3950" width="20" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-12" value="已经在 PK列表中的 房间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="4058" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="4100" as="sourcePoint" />
+            <mxPoint x="520" y="4040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-14" value="Anchor&amp;amp;Room PK接收方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1546" y="3750" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bNTS1BAsy0O8srKJ1xSo-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="3800" as="sourcePoint" />
+            <mxPoint x="1140" y="3950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-16" value="1、发送PK请求（请求方 roomId，userId，PK中房间列表，pkRoomId, pkUserId）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="3765" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.931;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bNTS1BAsy0O8srKJ1xSo-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="4000" as="sourcePoint" />
+            <mxPoint x="1510" y="3800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-18" value="2、发送 PK 请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bNTS1BAsy0O8srKJ1xSo-17">
+          <mxGeometry x="-0.1264" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.982;entryY=0.598;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bNTS1BAsy0O8srKJ1xSo-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="3830" as="sourcePoint" />
+            <mxPoint x="1140" y="3950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-20" value="3、响应 PK 请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bNTS1BAsy0O8srKJ1xSo-19">
+          <mxGeometry x="0.2896" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="3820" width="20" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.074;exitY=0.712;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bNTS1BAsy0O8srKJ1xSo-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="4000" as="sourcePoint" />
+            <mxPoint x="640" y="4000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNTS1BAsy0O8srKJ1xSo-23" value="4、通知 PK 中的主播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bNTS1BAsy0O8srKJ1xSo-22">
+          <mxGeometry x="0.1469" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
