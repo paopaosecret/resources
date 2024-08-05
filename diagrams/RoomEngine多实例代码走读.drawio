@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-20" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;api&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-20" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;api(接口层)&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-30" y="30" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-13" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/platform_adapter&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-13" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/platform_adapter（平台适配层）&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="270" y="30" width="880" height="110" as="geometry" />
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-9" value="TUIRoomEngine.java" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -117,7 +117,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-29" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/pipeline&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-29" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/pipeline（pipeline层）&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1170" y="30" width="310" height="110" as="geometry" />
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-30" value="room_pipeline.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -184,7 +184,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-43" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/trtc_controller/modules/trtc_adapter&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-43" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/trtc_controller/modules/trtc_adapter（trtc适配层）&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1800" y="65" width="560" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-44" value="trtc_method_channel_android.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
