@@ -1076,7 +1076,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-21" value="nativeCreateRoom(&lt;b&gt;mNativeTUIRoomEngineJni&lt;/b&gt;, new RoomInfo(roomInfo), new ActionCallback(callback));" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-18">
+        <mxCell id="rN49UCgZzVwihOFtEngf-21" value="&lt;div&gt;nativeEnterRoom(long nativeTUIRoomEngineJni, String roomId, int roomType,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;EnterRoomOptions options, GetRoomInfoCallback callback)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-18">
           <mxGeometry x="-0.5239" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1099,9 +1099,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-26" value="pipeline_-&amp;gt;CreateRoom(room_info,.....});" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-23">
+        <mxCell id="rN49UCgZzVwihOFtEngf-26" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-23">
           <mxGeometry x="-0.3864" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-110" value="&lt;div&gt;pipeline_-&amp;gt;EnterRoom(roomId, ...)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-23">
+          <mxGeometry x="-0.391" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-27" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/pipeline（pipeline层）&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -1135,7 +1140,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-34" value="room_manager_-&amp;gt;CreateRoom(room_info, std::move(success_callback), std::move(error_callback));" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-29">
+        <mxCell id="rN49UCgZzVwihOFtEngf-34" value="&lt;div&gt;room_manager_-&amp;gt;EnterRoom(room_id, room_type, options, std::move(success_callback),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;std::move(error_callback));&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-29">
           <mxGeometry x="-0.2477" y="-5" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -1148,7 +1153,7 @@
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="rN49UCgZzVwihOFtEngf-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3890" y="4840" as="targetPoint" />
+            <mxPoint x="3890" y="5942.424538352273" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-38" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); line-height: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-37">
@@ -1171,6 +1176,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-118" value="&lt;div&gt;trtc_method_channel_-&amp;gt;InvokeMethod(trtc::TRTCFunctionID::&lt;b&gt;&lt;font color=&quot;#ff0a23&quot;&gt;kEnterTRTCRoom&lt;/font&gt;&lt;/b&gt;, params_json,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;success_callback, error_callback);&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-37">
+          <mxGeometry x="-0.0044" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-42" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/trtc_controller/modules/trtc_adapter（trtc适配层）&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="4050" y="4025" width="560" height="70" as="geometry" />
         </mxCell>
@@ -1179,7 +1189,7 @@
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="rN49UCgZzVwihOFtEngf-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4200" y="4840" as="targetPoint" />
+            <mxPoint x="4200" y="5970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-45" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); line-height: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-44">
@@ -1197,12 +1207,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-119" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-44">
+          <mxGeometry x="0.0369" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-120" value="&lt;div&gt;Java_TRTCMethodChannel_invokeMethod(env, GetJavaObj(), static_cast&amp;lt;int&amp;gt;(function_id),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; j_method_params);&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-44">
+          <mxGeometry x="0.0813" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-48" value="TRTCMethodChannel.java" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="4400" y="4050" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="rN49UCgZzVwihOFtEngf-48">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4500" y="4840" as="targetPoint" />
+            <mxPoint x="4500" y="6000.888671875" as="targetPoint" />
             <mxPoint x="4210" y="4100" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
@@ -1223,6 +1243,21 @@
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-53" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-49">
           <mxGeometry x="0.4249" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-121" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;public&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;invokeMethod&lt;/span&gt;(&lt;span style=&quot;color: #4ec9b0;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;methodId&lt;/span&gt;, &lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;paramJson&lt;/span&gt;)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-49">
+          <mxGeometry x="0.1214" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-123" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;switch&lt;/span&gt; (&lt;span style=&quot;color: #9cdcfe;&quot;&gt;methodId&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #c586c0;&quot;&gt;case&lt;/span&gt; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;METHOD_ID_CALL_EXPERIMENTAL_API&lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;                &lt;span style=&quot;color: #c586c0;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;callExperimentalAPI&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;paramJson&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #c586c0;&quot;&gt;case&lt;/span&gt; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;METHOD_ID_ENTER_ROOM&lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;                &lt;span style=&quot;color: #dcdcaa;&quot;&gt;enterRoom&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;paramJson&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-49">
+          <mxGeometry x="0.2386" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-124" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;getTRTCCloud&lt;/span&gt;().&lt;span style=&quot;color: #dcdcaa;&quot;&gt;enterRoom&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;params&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;scene&lt;/span&gt;);&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-49">
+          <mxGeometry x="0.3209" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1254,8 +1289,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-60" value="&lt;div&gt;context_-&amp;gt;GetZeusController()-&amp;gt;CreateRoom(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ZeusConvert::ConvertToRoomInfo(room_info),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; basic::BindOnce(&amp;amp;this_class::OnCreateRoom, shared_from_this(), ticktock, room_info,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; std::move(success_callback), std::move(error_callback)));&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-55">
-          <mxGeometry x="-0.1259" y="-2" relative="1" as="geometry">
+        <mxCell id="rN49UCgZzVwihOFtEngf-111" value="&lt;div&gt;context_-&amp;gt;GetZeusController()-&amp;gt;EnterRoom(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; parameter, basic::BindOnce(&amp;amp;this_class::OnEnterRoom, shared_from_this(), ticktock,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;std::move(success_callback), std::move(error_callback)));&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-55">
+          <mxGeometry x="-0.0835" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-114" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;RoomManager&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa;&quot;&gt;OnEnterRoom&lt;/span&gt;(...)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-55">
+          <mxGeometry x="0.6985" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-115" value="EnterTRTCRoom(tui_room_info, std::move(success_callback), std::move(error_callback));" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-55">
+          <mxGeometry x="0.7476" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-116" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;trtc_controller&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;EnterTRTCRoom&lt;/span&gt;(...)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-55">
+          <mxGeometry x="0.8336" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1292,7 +1342,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-68" value="room_logic_-&amp;gt;CreateRoom(room_info, std::move(callback));" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-62">
+        <mxCell id="rN49UCgZzVwihOFtEngf-68" value="room_logic_-&amp;gt;EnterRoom(parameter, std::move(callback));" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-62">
           <mxGeometry x="0.0227" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1309,7 +1359,7 @@
         <mxCell id="rN49UCgZzVwihOFtEngf-72" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/room_controller/module/user&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="3480" y="4019" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-73" value="room_controller_impl.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="rN49UCgZzVwihOFtEngf-73" value="user_logic.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="3500" y="4044.5" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-74" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/room_controller/module/seat&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -1318,10 +1368,10 @@
         <mxCell id="rN49UCgZzVwihOFtEngf-75" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/room_controller/module/device&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="2960" y="4019" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-76" value="room_controller_impl.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="rN49UCgZzVwihOFtEngf-76" value="device_logic.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="2980" y="4044.5" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-77" value="room_controller_impl.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="rN49UCgZzVwihOFtEngf-77" value="seat_logic.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="3240" y="4044.5" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-78" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rN49UCgZzVwihOFtEngf-70">
@@ -1360,7 +1410,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-85" value="room_operation_handler_-&amp;gt;CreateRoom(room_info, std::move(callback));" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-78">
+        <mxCell id="rN49UCgZzVwihOFtEngf-85" value="room_operation_handler_-&amp;gt;EnterRoom(parameter, std::move(callback));" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-78">
           <mxGeometry x="0.1295" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1414,9 +1464,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-96" value="SendCreateRoomRequest(room_info, std::move(callback));&lt;div&gt;&lt;div&gt;SSOChannel::GetInstance()-&amp;gt;SendPacket(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; std::move(packet), basic::BindOnce(&amp;amp;this_class::HandleCreateRoomResponse, shared_from_this(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;room_info, std::move(callback)));&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-87">
+        <mxCell id="rN49UCgZzVwihOFtEngf-96" value="SendEnterRoomRequest(parameter, std::move(callback));&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;SSOChannel::GetInstance()-&amp;gt;SendPacket(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; std::move(packet), basic::BindOnce(&amp;amp;this_class::HandleEnterRoomResponse, shared_from_this(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;parameter.room_id, std::move(callback)));&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-87">
           <mxGeometry x="0.2482" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-113" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rN49UCgZzVwihOFtEngf-87">
+          <mxGeometry x="0.6864" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-97" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/room_controller/common/sso_channel&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -1478,6 +1533,18 @@
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-109" value="流程 3：TUIRoomEngine 进房流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="-680" y="3998.5" width="440" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-112" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2790" y="4840" as="sourcePoint" />
+            <mxPoint x="1620" y="4840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN49UCgZzVwihOFtEngf-117" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="4960" as="sourcePoint" />
+            <mxPoint x="3890" y="4960" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
