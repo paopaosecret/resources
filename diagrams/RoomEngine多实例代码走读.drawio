@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="9vsiafiyDo6otuCvhDFp">
-    <mxGraphModel dx="3845" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2551" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -498,7 +498,7 @@
         <mxCell id="uy58cVmOxjOJbvsVdYEF-137" value="流程 2：TUIRoomEngine 获取 TRTCCloud 实例流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="-700" y="1404.5" width="440" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-150" value="流程 2：TUIRoomEngine 进房流程" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" vertex="1" parent="1">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-150" value="流程 3：TUIRoomEngine 进房流程" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" vertex="1" parent="1">
           <mxGeometry x="-700" y="2580" width="490" height="111" as="geometry" />
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-151" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;api(接口层)&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -680,11 +680,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-189" value="return trtc_method_channel_-&amp;gt;GetTRTCCloud();" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-184">
-          <mxGeometry x="0.1061" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-190" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/trtc_controller/modules/trtc_adapter（trtc适配层）&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="4030" y="2595" width="560" height="70" as="geometry" />
         </mxCell>
@@ -708,20 +703,6 @@
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-195" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-192">
           <mxGeometry x="0.3442" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-196" value="&lt;div&gt;if (!java_trtc_cloud_) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; java_trtc_cloud_ = Java_TRTCMethodChannel_getTRTCCloud(env, GetJavaObj());&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; return java_trtc_cloud_.obj();&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-192">
-          <mxGeometry x="0.2325" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-197" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="4640" y="2780" width="10" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-198" value="进房调用链" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="uy58cVmOxjOJbvsVdYEF-197">
-          <mxGeometry x="0.0005" relative="1" as="geometry">
-            <mxPoint x="80" y="2770" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -749,7 +730,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-205" value="mTRTCCloud = TRTCCloudImpl.createInstance(context);&lt;div&gt;return mTRTCCloud;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-201">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-205" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-201">
           <mxGeometry x="0.4249" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
