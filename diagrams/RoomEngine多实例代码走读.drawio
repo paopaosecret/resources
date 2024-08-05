@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="9vsiafiyDo6otuCvhDFp">
-    <mxGraphModel dx="2098" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2336" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-78" value="&lt;div&gt;&amp;nbsp;auto pipeline = std::shared_ptr&amp;lt;RoomPipeline&amp;gt;(new RoomPipeline());&lt;/div&gt;&lt;div&gt;&amp;nbsp; pipeline-&amp;gt;Init(TRTCController::Create());&lt;/div&gt;&lt;div&gt;&lt;div&gt;trtc_controller_ = trtc_controller;&lt;/div&gt;&lt;div&gt;&amp;nbsp; room_manager_ = std::make_shared&amp;lt;RoomManager&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; user_manager_ = std::make_shared&amp;lt;UserManager&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; seat_manager_ = std::make_shared&amp;lt;SeatManager&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; device_manager_ = std::make_shared&amp;lt;extension::DeviceManagerExtension&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; room_manager_-&amp;gt;Init(context_);&lt;/div&gt;&lt;div&gt;&amp;nbsp; user_manager_-&amp;gt;Init(context_);&lt;/div&gt;&lt;div&gt;&amp;nbsp; seat_manager_-&amp;gt;Init(context_);&lt;/div&gt;&lt;div&gt;&amp;nbsp; device_manager_-&amp;gt;Init(context_);&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-31">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-78" value="&lt;div&gt;&amp;nbsp;auto pipeline = std::shared_ptr&amp;lt;RoomPipeline&amp;gt;(new RoomPipeline());&lt;/div&gt;&lt;div&gt;&amp;nbsp; pipeline-&amp;gt;Init(TRTCController::Create());&lt;/div&gt;&lt;div&gt;&lt;div&gt;trtc_controller_ = trtc_controller;&lt;/div&gt;&lt;div&gt;&amp;nbsp; room_manager_ = std::make_shared&amp;lt;RoomManager&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; user_manager_ = std::make_shared&amp;lt;UserManager&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; seat_manager_ = std::make_shared&amp;lt;SeatManager&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; device_manager_ = std::make_shared&amp;lt;extension::DeviceManagerExtension&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; room_manager_-&amp;gt;Init(context_);&lt;/div&gt;&lt;div&gt;&amp;nbsp; user_manager_-&amp;gt;Init(context_);&lt;/div&gt;&lt;div&gt;&amp;nbsp; seat_manager_-&amp;gt;Init(context_);&lt;/div&gt;&lt;div&gt;&amp;nbsp; device_manager_-&amp;gt;Init(context_);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;zeus_controller_ = ZeusController::GetInstance();&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-31">
           <mxGeometry x="-0.1811" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -156,7 +156,7 @@
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="uy58cVmOxjOJbvsVdYEF-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1640" y="1040" as="targetPoint" />
+            <mxPoint x="1640" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-39" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); line-height: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-38">
@@ -174,13 +174,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-67" value="&lt;div&gt;trtc_method_channel_ = trtc_method_channel;&lt;/div&gt;&lt;div&gt;&amp;nbsp; trtc_method_channel_-&amp;gt;SetObserver(shared_from_this());&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-38">
-          <mxGeometry x="0.2764" y="1" relative="1" as="geometry">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-80" value="&lt;div&gt;trtc_method_channel_ = trtc_method_channel;&lt;/div&gt;&lt;div&gt;&amp;nbsp; trtc_method_channel_-&amp;gt;SetObserver(shared_from_this());&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-38">
+          <mxGeometry x="0.5117" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-79" value="&lt;div&gt;&amp;nbsp;auto trtc = std::make_shared&amp;lt;TRTCControllerImpl&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; trtc-&amp;gt;Init(trtc::TRTCMethodChannel::Create());&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-38">
-          <mxGeometry x="0.0393" y="-2" relative="1" as="geometry">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-81" value="&lt;div&gt;&amp;nbsp;auto trtc = std::make_shared&amp;lt;TRTCControllerImpl&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; trtc-&amp;gt;Init(trtc::TRTCMethodChannel::Create());&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-38">
+          <mxGeometry x="0.2958" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -192,7 +192,7 @@
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="uy58cVmOxjOJbvsVdYEF-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1950" y="1070" as="targetPoint" />
+            <mxPoint x="1950" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-46" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); line-height: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-45">
@@ -205,8 +205,8 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-49" value="&amp;nbsp;return std::make_shared&amp;lt;TRTCMethodChannelAndroid&amp;gt;(false);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-45">
-          <mxGeometry x="0.0803" relative="1" as="geometry">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-82" value="&amp;nbsp;return std::make_shared&amp;lt;TRTCMethodChannelAndroid&amp;gt;(false);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uy58cVmOxjOJbvsVdYEF-45">
+          <mxGeometry x="0.3442" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -219,7 +219,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-57" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="uy58cVmOxjOJbvsVdYEF-55" parent="1">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-57" value="返回 trtc 适配层 c 对象" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="uy58cVmOxjOJbvsVdYEF-55" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1640" y="665" as="targetPoint" />
           </mxGeometry>
@@ -229,7 +229,7 @@
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uy58cVmOxjOJbvsVdYEF-58">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2250" y="1070" as="targetPoint" />
+            <mxPoint x="2250" y="880" as="targetPoint" />
             <mxPoint x="1960" y="140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
