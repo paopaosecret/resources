@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="9vsiafiyDo6otuCvhDFp">
-    <mxGraphModel dx="2839" dy="2296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4276" dy="3100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1481,7 +1481,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN49UCgZzVwihOFtEngf-109" value="流程 3：TUIRoomEngine 进房流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" parent="1" vertex="1">
+        <mxCell id="rN49UCgZzVwihOFtEngf-109" value="流程 4：TUIRoomEngine 进房流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="-680" y="3998.5" width="440" height="111" as="geometry" />
         </mxCell>
         <mxCell id="rN49UCgZzVwihOFtEngf-112" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -1551,53 +1551,53 @@
             <mxPoint x="2790" y="4840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-11" value="api&lt;div&gt;（接口层）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="-696" width="177" height="111" as="geometry" />
+        <mxCell id="ZBckmUUHT1_G1xivClD4-11" value="api&lt;div&gt;（接口层）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" parent="1" vertex="1">
+          <mxGeometry x="-670" y="-426" width="177" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-12" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/im_controller&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;（IM控制层）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-560" width="175" height="111" as="geometry" />
+        <mxCell id="ZBckmUUHT1_G1xivClD4-12" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/im_controller&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;（IM控制层）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" parent="1" vertex="1">
+          <mxGeometry x="530" y="-290" width="175" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-13" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/pipeline&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;（pipeline层）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" vertex="1" parent="1">
-          <mxGeometry x="401" y="-696" width="179" height="111" as="geometry" />
+        <mxCell id="ZBckmUUHT1_G1xivClD4-13" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/pipeline&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;（pipeline层）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" parent="1" vertex="1">
+          <mxGeometry x="-109" y="-426" width="179" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ZBckmUUHT1_G1xivClD4-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="-600" as="sourcePoint" />
-            <mxPoint x="1020" y="-490" as="targetPoint" />
+            <mxPoint x="370" y="-330" as="sourcePoint" />
+            <mxPoint x="510" y="-220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ZBckmUUHT1_G1xivClD4-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="-641" as="sourcePoint" />
-            <mxPoint x="380" y="-641" as="targetPoint" />
+            <mxPoint x="-190" y="-371" as="sourcePoint" />
+            <mxPoint x="-130" y="-371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-16" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/room_controller&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;（房间控制层）&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" vertex="1" parent="1">
-          <mxGeometry x="691" y="-696" width="179" height="111" as="geometry" />
+        <mxCell id="ZBckmUUHT1_G1xivClD4-16" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/room_controller&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;（房间控制层）&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" parent="1" vertex="1">
+          <mxGeometry x="181" y="-426" width="179" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ZBckmUUHT1_G1xivClD4-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="-641" as="sourcePoint" />
-            <mxPoint x="670" y="-641" as="targetPoint" />
+            <mxPoint x="100" y="-371" as="sourcePoint" />
+            <mxPoint x="160" y="-371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ZBckmUUHT1_G1xivClD4-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="-680" as="sourcePoint" />
-            <mxPoint x="1020" y="-770" as="targetPoint" />
+            <mxPoint x="370" y="-410" as="sourcePoint" />
+            <mxPoint x="510" y="-500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-20" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/platform_adapter&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;（平台适配层）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" vertex="1" parent="1">
-          <mxGeometry x="105" y="-700" width="175" height="111" as="geometry" />
+        <mxCell id="ZBckmUUHT1_G1xivClD4-20" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/platform_adapter&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;（平台适配层）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" parent="1" vertex="1">
+          <mxGeometry x="-405" y="-430" width="175" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ZBckmUUHT1_G1xivClD4-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="30" y="-640" as="sourcePoint" />
-            <mxPoint x="90" y="-640" as="targetPoint" />
+            <mxPoint x="-480" y="-370" as="sourcePoint" />
+            <mxPoint x="-420" y="-370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZBckmUUHT1_G1xivClD4-23" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/trtc_controller&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;(TRTC 控制层)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-820" width="177" height="111" as="geometry" />
+        <mxCell id="ZBckmUUHT1_G1xivClD4-23" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;src/trtc_controller&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;(TRTC 控制层)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" parent="1" vertex="1">
+          <mxGeometry x="530" y="-550" width="177" height="111" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
