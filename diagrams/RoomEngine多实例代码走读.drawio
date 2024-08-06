@@ -478,7 +478,7 @@
         <mxCell id="uy58cVmOxjOJbvsVdYEF-137" value="流程 2：TUIRoomEngine 获取 TRTCCloud 实例流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="-700" y="1404.5" width="440" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="uy58cVmOxjOJbvsVdYEF-150" value="流程 3：TUIRoomEngine 进房流程" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" parent="1" vertex="1">
+        <mxCell id="uy58cVmOxjOJbvsVdYEF-150" value="流程 3：TUIRoomEngine 创建房间流程" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" parent="1" vertex="1">
           <mxGeometry x="-700" y="2580" width="490" height="111" as="geometry" />
         </mxCell>
         <mxCell id="uy58cVmOxjOJbvsVdYEF-151" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;api(接口层)&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
