@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="9ODs0Qua660HP017xiVU">
-    <mxGraphModel dx="2034" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="njDCJ_qlVzi4br1Py447-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="80" y="180" width="600" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="njDCJ_qlVzi4br1Py447-2" value="TUIChat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" parent="1" vertex="1">
+        <mxCell id="njDCJ_qlVzi4br1Py447-2" value="Chat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" parent="1" vertex="1">
           <mxGeometry x="90" y="40" width="100" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="njDCJ_qlVzi4br1Py447-4" value="TUIRoom" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" parent="1" vertex="1">
+        <mxCell id="njDCJ_qlVzi4br1Py447-4" value="Room" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" parent="1" vertex="1">
           <mxGeometry x="420" y="41" width="100" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="njDCJ_qlVzi4br1Py447-5" value="TUICall" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" parent="1" vertex="1">
+        <mxCell id="njDCJ_qlVzi4br1Py447-5" value="Call" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFF4C3;fillColor=#FFF4C3;" parent="1" vertex="1">
           <mxGeometry x="260" y="41" width="87" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="njDCJ_qlVzi4br1Py447-6" value="TUILive" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D5E8D4;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="njDCJ_qlVzi4br1Py447-6" value="Live" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D5E8D4;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="590" y="40" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="njDCJ_qlVzi4br1Py447-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="110" y="210" width="550" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="njDCJ_qlVzi4br1Py447-8" value="TUICore（native）、TUIKitProvider(web)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="njDCJ_qlVzi4br1Py447-8" value="Core（native）、UIKitProvider(web)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="njDCJ_qlVzi4br1Py447-10" value="Theme" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
